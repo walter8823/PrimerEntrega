@@ -35,6 +35,7 @@ const modal = ({ character, open, onClose }) => {
         <Typography>Species: {character.species}</Typography>
         <Typography>Gender: {character.gender}</Typography>
         <Typography>Origin: {character.origin.name}</Typography>
+        <Typography>Created: {character.created}</Typography>
         <img src={character.image} style={{ width: '100%', marginTop: '2rem' }} alt={character.name} />
       </Box>
     </Modal>
